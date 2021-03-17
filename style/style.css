@@ -269,11 +269,12 @@
 }
 
 .text{
-	padding: 40px;
+	padding: 60px;
+	margin: 0 auto;
 }
 
 #slides p{
-	padding-top: 10px;
+	padding-top: 5px;
 	justify-self: center;
 	align-self: center;
 	align-items: center;
@@ -283,10 +284,7 @@
 	color: black;
 }
 
-.text{
-	margin: 0 auto;
-	padding: 60px;
-}
+
 
 #slides h3{
 	justify-self: center;
