@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;300
+&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<title>Yula</title>
+</head>
+
+<body>
+	<div id="homepag">
+		<div class="socials">
+			<div class="socialicon">
+			<a href="https://www.instagram.com/jraudulis/" class="fa fa-instagram"></a>
+			<a href="https://www.facebook.com/juris.raudulis.7" class="fa fa-facebook"></a>
+			<a href="https://twitter.com/JurisRaudulis" class="fa fa-twitter"></a>
+			<a href="https://www.linkedin.com/in/juris-raudulis-152306194/?originalSubdomain=uk" class="fa fa-linkedin"></a>
+			</div>	
+		</div>
+			<div class="hometext">
+				<div class="dothead">
+					<h1 class="yula-head">Yula<span class="dot"></span></h1>
+						</div>
+							<h3 class="energise">Energise Your Spirit</h3>
+						</div>
+	</div>
+	<script>
+	var textWrapper = document.querySelector('.energise');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.energise .letter',
+    scale: [4,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 5000,
+    delay: (el, i) => 200*i
+  }).add({
+    targets: '.energise',
+    opacity: 1,
+    duration: 0,
+    easing: "easeOutExpo",
+    delay: 100000
+  });
+	</script>
+	<div id="weare">
+			<h1 class="sect-head">Who are we<span class="dot"></span></h1>
+				<div class="we-are-img">
+					<img src="images/jungle.png" alt="picture of amazon jungle" class="round-img">
+					</div>
+						<div class="we-are-text">
+							<p>Yula is brand new company which is highly inspired by Amazons rainforests and humans inner spirit.  </p>
+							</div>
+								<div class="we-are-img-sec">
+									<img src="images/trees.png" alt="picture of amazon jungle" class="round-img">
+									</div>
+								<div class="we-are-text-sec">
+									<p> Yula stands for “tree” and “energy”. They follow these values to create all natural product which will boost your mood and energy. </p>
+									</div>
+							</div>
+	<div id="body-soul">
+		<iframe width="1920" height="800" src="https://www.youtube.com/embed/jg56n72XNsA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	
+	<div id="goals">
+		<h1 class="sect-head">Body And Soul<span class="dot"></span></h1>
+			<div class="goals-text">
+			<p>Yula energy drink is perfect product to boost your energy levels and elevate your fitness goals</p>
+			</div>
+				<div class="goals-img">
+					<img src="images/goals.png" alt="fitness picture" class="round-img">
+					</div>
+						<div class="goals-text-sec">
+						<p>Made out of natural ingredients only means that Yula energy drink is the healthiest choice for your body</p>			</div>
+						<div class="sec-goals-img">
+							<img src="images/meditation.png" alt="fitness picture" class="round-img">
+							</div>
+						</div>
+	<!-- slider grid -->
+	
+	<h1 class="sect-head">Our Products<span class="dot"></span></h1>
+	<ul id="slides">
+  <li class="slider showing">
+	  <div class="picture">
+	  <img src="images/can.png" alt="can">
+	  </div>
+	  <div class="text">
+			<h3 class="product-head">Berries Spice</h3>
+			<p class="product-par">Experience the fruity berry taste of açaí, the kick of chilli flavour, and the invigorating, refreshing, botanical notes of green tea and smoky green maté. Rooted in nature and 100% natural energy*. Made with organic ingredients, sustainably sourced, without taurine, low in sugar and only 60 calories. A source of force to regain your focus*, your creativity, your inner spirit.</p></div>
+		</li>
+  <li class="slider">
+	  		 <div class="picture">
+	  <img src="images/mango-can.png" alt="can">
+	  </div>
+	  <div class="text">
+			<h3 class="product-head">Mango Chilli</h3>
+			<p class="product-par">Experience the juicy flavour of tropical mango, the gentle kick of chilli and the refreshing notes of green tea and smoky green maté. Rooted in nature and 100% natural energy*. Made with sustainably sourced ingredients, without taurine, low in sugar and only 60 calories. A source of force to regain your focus*, your creativity, your inner spirit.</p></div>
+			
+	  </li>
+  <li class="slider">
+	   <div class="picture">
+	  <img src="images/lemon-can.png" alt="can">
+	  </div>
+	  <div class="text">
+			<h3 class="product-head">Lemon Ginger</h3>
+			<p class="product-par">Experience the taste of zesty lemon, the warming flavour of ginger and the refreshing, botanical notes of green tea and smoky green maté. Rooted in nature and 100% natural energy.* Made with organic ingredients, sustainably sourced, without taurine, low in sugar and only 60 calories. A source of force to regain your focus*, your creativity, your inner spirit.</p></div>
+	  </li>
+</ul>
+	  
+	  <script>
+		 var slides = document.querySelectorAll('#slides .slider');
+var currentSlide = 0;
+var slideInterval = setInterval(nextSlide,5000);
+
+function nextSlide(){
+  slides[currentSlide].className = 'slider';
+  currentSlide = (currentSlide+1)%slides.length;
+  slides[currentSlide].className = 'slider showing';
+}
+	  </script>
+	  
+	
+	<!-- End of slider grid -->
+	
+	<div id="product-mob">
+
+		<div class="berry">
+			<img src="images/can.png" alt="can of yula energy">
+		</div>
+		<div class="berry-text">
+			<h3>Berries Spice</h3>
+			<p>Experience the fruity berry taste of açaí, the kick of chilli flavour, and the invigorating, refreshing, botanical notes of green tea and smoky green maté. Rooted in nature and 100% natural energy*. Made with organic ingredients, sustainably sourced, without taurine, low in sugar and only 60 calories. A source of force to regain your focus*, your creativity, your inner spirit.</p>
+		</div>
+		<div class="mango">
+			<img src="images/mango-can.png" alt="can of mango yula">
+		</div>
+		<div class="mango-text">
+			<h3>Mango Chilli</h3>
+			<p>Experience the juicy flavour of tropical mango, the gentle kick of chilli and the refreshing notes of green tea and smoky green maté. Rooted in nature and 100% natural energy*. Made with sustainably sourced ingredients, without taurine, low in sugar and only 60 calories. A source of force to regain your focus*, your creativity, your inner spirit.</p>
+		</div>
+		<div class="lemon">
+			<img src="images/lemon-can.png" alt="can of lemon yula">
+		</div>
+		<div class="lemon-text">
+			<h3>Lemon Ginger</h3>
+			<p>Experience the taste of zesty lemon, the warming flavour of ginger and the refreshing, botanical notes of green tea and smoky green maté. Rooted in nature and 100% natural energy.* Made with organic ingredients, sustainably sourced, without taurine, low in sugar and only 60 calories. A source of force to regain your focus*, your creativity, your inner spirit.</p>
+		</div>
+	</div>
+	
+	
+	
+	<div id="contacts">
+		<div class="sect-head">
+		<h1 class="sect-head">Contact Us<span class="dot"></span></h1>
+		</div>
+		<div class="contat-form">
+				<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+<ul class="form-style-1">
+    <li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" /> <input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
+    <li>
+        <label>Email <span class="required">*</span></label>
+        <input type="email" name="field3" class="field-long" />
+    </li>
+    <li>
+        <label>Subject</label>
+        <select name="field4" class="field-select">
+        <option value="Advertise">Advertise</option>
+        <option value="Partnership">Partnership</option>
+        <option value="General Question">General</option>
+        </select>
+    </li>
+    <li>
+        <label>Your Message <span class="required">*</span></label>
+        <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+    </li>
+    <li>
+        <input type="submit" value="Submit" />
+    </li>
+</ul>
+</form>
+	
+			<script>
+			function validateForm() {
+  var x = document.forms["myForm"]["field1"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+	</script>		
+			
+			</div>
+		<div class="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80598.89328573822!2d4.305178199686065!3d50.854953987834854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3a4ed73c76867%3A0xc18b3a66787302a7!2zQnJpc2VsZSwgQmXEvMSjaWph!5e0!3m2!1slv!2suk!4v1615755064677!5m2!1slv!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+	
+	</div>
+	
+	
+	
+</body>
+</html>
